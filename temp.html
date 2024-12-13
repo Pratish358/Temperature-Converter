@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp-Conveter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conTainer">
+        <div class="box">
+            <h3> Enter Temperature</h3>
+            <h5>Degree</h5>
+            <div class="value">
+                <input type="number" id="num" value="0">
+                <select id="degreeSelect">
+                    <option value="Celsius"> &deg;C</option>
+                    <option value="Fahrenheit">&deg;F</option>
+                    <option value="Kelvin"> &deg;K</option>
+                </select>
+            </div>
+            <div class="conVert">
+                <h5 class="in">Convert In</h5>
+                <select id="degreeSelect2">
+                    <option value="Celsius"> Celsius (&deg;C)</option>
+                    <option value="Fahrenheit"> Fahrenheit (&deg;F)</option>
+                    <option value="Kelvin"> Kelvin (&deg;K)</option>
+                </select>
+                <button onclick="ConvertTemprature()" id="conv"> Convert  &#x2192;</button>
+            </div>
+        </div>
+        <div class="box2">
+            <p class="view"></p>
+        </div>
+    </div>
+    <script src="conTemp.js"></script>
+</body>
+
+</html>
