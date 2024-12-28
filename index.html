@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="conTainer">
+    <div class="container">
         <div class="box">
             <h3> Enter Temperature</h3>
             <h5>Degree</h5>
@@ -18,24 +18,22 @@
                 <select id="degreeSelect">
                     <option value="Celsius"> &deg;C</option>
                     <option value="Fahrenheit">&deg;F</option>
-                    <option value="Kelvin"> &deg;K</option>
                 </select>
             </div>
-            <div class="conVert">
+            <div class="convert">
                 <h5 class="in">Convert In</h5>
-                <select id="degreeSelect2">
+                <select id="selectDegree">
                     <option value="Celsius"> Celsius (&deg;C)</option>
                     <option value="Fahrenheit"> Fahrenheit (&deg;F)</option>
-                    <option value="Kelvin"> Kelvin (&deg;K)</option>
                 </select>
                 <button onclick="ConvertTemprature()" id="conv"> Convert  &#x2192;</button>
             </div>
         </div>
-        <div class="box2">
+        <div class="display-box">
             <p class="view"></p>
         </div>
     </div>
-    <script src="conTemp.js"></script>
+    <script src="convertTemperature.js"></script>
 </body>
 
 </html>
